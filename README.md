@@ -11,7 +11,7 @@
 
 ### Project Description
 
-EriPay is a project that served as a proof of concept to integrate online payments with NFC/RFID cards. The goal is to provide a payment solution integrated with NFC/RFID cards that is usually used within any workplace. The card could be recharged and/or the balance could be deducted from employee's paycheck later.
+ePay is a project that served as a proof of concept to integrate online payments with NFC/RFID cards. The goal is to provide a payment solution integrated with NFC/RFID cards that is usually used within any workplace. The card could be recharged and/or the balance could be deducted from employee's paycheck later.
 
 The project is divided into three parts:
 
@@ -24,5 +24,5 @@ The connection between the front-end and the back-end is done using RESTful Web 
 ### Procedure
 
  * Go to the RFID/NFC folder, mvn clean install and run the generated Jar File
- * The back-end folders are inside the eriPay directory, so you can import this gradle project and run the springboot application
+ * The back-end folders are inside the ePay directory, so you can import this gradle project and run the springboot application
  * Go to the front-end folder, npm install then npm start to run the front-end
