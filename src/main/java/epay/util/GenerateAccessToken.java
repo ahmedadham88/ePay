@@ -1,4 +1,4 @@
-package eripay.util;
+package epay.util;
 
 import com.paypal.base.ConfigManager;
 import com.paypal.base.Constants;
@@ -15,9 +15,9 @@ public class GenerateAccessToken {
     // ClientID and ClientSecret
     String clientID = ConfigManager.getInstance().getValue(Constants.CLIENT_ID);
     String clientSecret = ConfigManager.getInstance().getValue(
-        Constants.CLIENT_SECRET);
+          Constants.CLIENT_SECRET);
 
     return new OAuthTokenCredential(clientID, clientSecret)
-        .getAccessToken();
+          .getAccessToken();
   }
 }

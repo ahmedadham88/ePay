@@ -1,4 +1,4 @@
-package eripay.client;
+package epay.client;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,7 +17,7 @@ import com.paypal.base.rest.APIContext;
 import com.paypal.base.rest.OAuthTokenCredential;
 import com.paypal.base.rest.PayPalRESTException;
 
-import eripay.domain.User;
+import epay.domain.User;
 
 @Component
 public class PaypalClient {

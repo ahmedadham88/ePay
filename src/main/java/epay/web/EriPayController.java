@@ -1,4 +1,4 @@
-package eripay.web;
+package epay.web;
 
 import java.util.List;
 
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.paypal.base.rest.PayPalRESTException;
 
-import eripay.domain.Item;
-import eripay.domain.Purchase;
-import eripay.service.EncryptionService;
-import eripay.service.ItemService;
-import eripay.service.PriceService;
+import epay.domain.Item;
+import epay.domain.Purchase;
+import epay.service.EncryptionService;
+import epay.service.ItemService;
+import epay.service.PriceService;
 
 @RestController
 public class EriPayController {
@@ -39,7 +39,6 @@ public class EriPayController {
   @CrossOrigin(origins = "http://localhost:3000")
   @RequestMapping(value = "/price", method = RequestMethod.POST)
   public String postPurchase(@RequestBody final Purchase purchase) throws PayPalRESTException {
-	  System.out.println(purchase.getSignum()+purchase.getPrice());
     return priceService.postPur(purchase);
   }
 

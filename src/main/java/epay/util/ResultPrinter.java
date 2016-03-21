@@ -1,4 +1,4 @@
-package eripay.util;
+package epay.util;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ResultPrinter {
 
   public static void addResult(HttpServletRequest req, HttpServletResponse resp, String message,
-      String request, String response, String error) {
+        String request, String response, String error) {
 
     addDataToAttributeList(req, "messages", message);
     addDataToAttributeList(req, "requests", request);
@@ -33,7 +33,7 @@ public class ResultPrinter {
 
   @SuppressWarnings("unchecked")
   private static void addDataToAttributeList(HttpServletRequest req,
-      String listName, String data) {
+        String listName, String data) {
     // Add Messages
     List<String> list;
     if ((list = (List<String>) req.getAttribute(listName)) == null) {

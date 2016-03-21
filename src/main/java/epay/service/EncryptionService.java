@@ -1,4 +1,4 @@
-package eripay.service;
+package epay.service;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

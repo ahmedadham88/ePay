@@ -1,12 +1,12 @@
-package eripay.service;
+package epay.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.paypal.base.rest.PayPalRESTException;
 
-import eripay.client.PaypalClient;
-import eripay.domain.User;
+import epay.client.PaypalClient;
+import epay.domain.User;
 
 @Service
 public class PurchaseService {

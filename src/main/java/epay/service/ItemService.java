@@ -1,15 +1,14 @@
-package eripay.service;
+package epay.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import eripay.domain.Item;
+import epay.domain.Item;
 
 @Service
 public class ItemService {
-
 
   /**
    * hard-coded value for front end- TEMP

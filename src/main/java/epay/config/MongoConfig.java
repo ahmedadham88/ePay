@@ -1,4 +1,4 @@
-package eripay.config;
+package epay.config;
 
 import java.net.UnknownHostException;
 

@@ -1,4 +1,4 @@
-package eripay.domain;
+package epay.domain;
 
 import org.springframework.data.annotation.Id;
 

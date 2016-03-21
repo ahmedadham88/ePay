@@ -1,12 +1,12 @@
-package eripay.service;
+package epay.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import eripay.domain.User;
-import eripay.repository.UserRepository;
+import epay.domain.User;
+import epay.repository.UserRepository;
 
 @Service
 public class UserService {

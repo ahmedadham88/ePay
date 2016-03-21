@@ -1,4 +1,4 @@
-package eripay.domain;
+package epay.domain;
 
 public class Purchase {
 

@@ -1,9 +1,9 @@
-package eripay.repository;
+package epay.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import eripay.domain.User;
+import epay.domain.User;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, String> {
