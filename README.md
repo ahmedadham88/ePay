@@ -11,7 +11,7 @@
 
 ### Project Description
 
-EriPay is a project to integrate online payments with NFC/RFID cards. The goal is to provide a payment solution integrated with NFC/RFID cards that is usually used within any workplace. The card could be recharged and/or the balance could be deducted from employee's paycheck later.
+EriPay is a project that served as a proof of concept to integrate online payments with NFC/RFID cards. The goal is to provide a payment solution integrated with NFC/RFID cards that is usually used within any workplace. The card could be recharged and/or the balance could be deducted from employee's paycheck later.
 
 The project is divided into three parts:
 
