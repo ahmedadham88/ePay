@@ -4,10 +4,10 @@
 ### Project Members
 
  * Ahmed Abouzeid
- * Daniel Magni
  * Reza Farhadi
- * Maziar Mohammad-Shahi
+ * Daniel Magni
  * Frederick Mfinanga
+ * Maziar M-Shahi
 
 ### Project Description
 
